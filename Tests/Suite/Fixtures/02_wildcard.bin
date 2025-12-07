@@ -1,0 +1,4 @@
+DATA_START
+Pattern1: AB CD EF 12 34
+Pattern2: AB 99 EF 12 34
+END_DATA

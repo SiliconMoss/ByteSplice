@@ -1,0 +1,5 @@
+[Expected Match Validation - SHOULD PASS]
+; This should find 2 matches and expects 2, so it should succeed
+Pattern = 41 41 41 41
+Replacement = 58 58 58 58
+ExpectedMatches = 2

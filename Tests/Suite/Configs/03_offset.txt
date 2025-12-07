@@ -1,0 +1,7 @@
+[Offset Patch]
+; Find "FF FF" and patch 3 bytes ahead (the "00 00 00")
+; ASCII: "FF FF" = 46 46 20 46 46
+Pattern = 46 46 20 46 46
+Replacement = 41 41 41
+Offset = 3
+ExpectedMatches = 1

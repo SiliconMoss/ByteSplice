@@ -1,0 +1,6 @@
+[Wildcard Match]
+; Match "AB ?? EF" pattern (should match both Pattern1 and Pattern2)
+; ASCII: "AB " = 41 42 20, "EF" = 45 46
+Pattern = 41 42 20 ?? ?? 20 45 46
+Replacement = 58 58 20 58 58 20 58 58
+ExpectedMatches = 2

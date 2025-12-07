@@ -1,0 +1,6 @@
+[Expected Match Validation - SHOULD FAIL]
+; This should find 2 matches but expects 1, so it should abort
+; Pattern "AAAA" (ASCII: 41 41 41 41)
+Pattern = 41 41 41 41
+Replacement = 58 58 58 58
+ExpectedMatches = 1

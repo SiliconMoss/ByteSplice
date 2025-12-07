@@ -1,0 +1,11 @@
+# Build Output
+bin/
+obj/
+
+# Temporary build folders
+.bytesplice_build*
+
+# User/Testing files
+*.bak
+*.tmp
+*.log

@@ -1,0 +1,5 @@
+[Basic Exact Match]
+; Match "AA BB CC" and replace with "99 88 77"
+Pattern = 41 41 20 42 42 20 43 43
+Replacement = 58 58 20 59 59 20 5A 5A
+ExpectedMatches = 1
